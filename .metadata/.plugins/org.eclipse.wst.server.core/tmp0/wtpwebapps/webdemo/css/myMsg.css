@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.secondNav{
+	width:200px;
+	height:400px;
+	background-color:#900;
+	opacity:0.7;
+	float:left;}
+.secondNav ul{
+	list-style:none;}
+.secondNav ul li{
+	height:60px;
+	line-height:60px;}
+.secondNav ul li a{
+    display:block;
+	width:200px;
+	line-height:40px;
+	height:40px;
+	text-align:center;
+	font:18px "微软雅黑", "隶书";
+	color:#FFC;
+	padding-top:20px;
+	}
+.secondNav a:hover{
+	background-color:#FFC;
+	color:#900;}
+.myMsgs{
+	width:700px;
+	height:400px;
+	float:left;
+	margin:20px;}
+.myMsgs a:hover{
+	background-color:#030;
+	opacity:0.2;
+	color:#FFF;
+	}
+/*#CBDA9F*/
+.myMsg{
+	display:block;
+	width:500px;
+	height:100px;
+	float:left;
+	margin:10px;
+	position:relative;
+	background-color:rgba(153,153,153,0.3);
+	border-radius:10px;}
+.myMsg img{
+	width:80px;
+	height:80px;
+	margin:10px;
+	border-radius:5px;}
+.myMsg h4{
+	display:inline-block;
+	position:absolute;
+	left:30%;
+	top:25%;}
+.myMsg span{
+	position:absolute;
+	left:50%;
+	bottom:25%;}

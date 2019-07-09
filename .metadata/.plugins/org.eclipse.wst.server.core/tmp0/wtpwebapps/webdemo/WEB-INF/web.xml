@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>webdemo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>UploadHandleServlet</servlet-name>
+    <servlet-class>me.gacl.web.controller.UploadHandleServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UploadHandleServlet</servlet-name>
+    <url-pattern>/UploadHandleServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>DownLoadServlet</servlet-name>
+      <servlet-class>me.gacl.web.controller.DownLoadServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+      <servlet-name>DownLoadServlet</servlet-name>
+      <url-pattern>/DownLoadServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ShowResList</servlet-name>
+    <servlet-class>me.gacl.web.controller.ShowResList</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ShowResList</servlet-name>
+    <url-pattern>/ShowResList</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>ShowMsgList</servlet-name>
+    <servlet-class>me.gacl.web.controller.ShowMsgList</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ShowMsgList</servlet-name>
+    <url-pattern>/ShowMsgList</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>ShowResDetail</servlet-name>
+    <servlet-class>me.gacl.web.controller.ShowResDetail</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ShowResDetail</servlet-name>
+    <url-pattern>/ShowResDetail</url-pattern>
+  </servlet-mapping>
+  
+        <servlet>
+    <servlet-name>DownloadHandleServlet</servlet-name>
+    <servlet-class>me.gacl.web.controller.DownloadHandleServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>DownloadHandleServlet</servlet-name>
+    <url-pattern>/DownloadHandleServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

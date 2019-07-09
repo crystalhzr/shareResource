@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body{
+	background:url(../images/1.jpg);
+	background-attachment:fixed;
+}
+.content{
+	width:700px;
+	height:auto;
+	background-color:rgba(256,256,256,0.6);
+	border-radius:20px;
+	margin:100px auto;
+	position:relative;
+	padding-bottom:50px;}
+.title{
+	width:600px;
+	height:79px;
+	margin-left:160px;
+	padding-top:20px;}
+.title_left,.title_right{
+	float:left;}
+.title_right{
+	padding-left:10px;}
+.logTab{
+	border:none;
+	width:400px;
+	margin:0px auto;
+	font-size:20px;}
+.logTab td{
+	height:40px;
+	padding-top:20px;}
+.input{
+	width:180px;
+	height:30px;
+	display:inline-block;
+	border-radius:10px;
+	padding-left:16px;
+	margin-left:16px;}
+.btn{
+	width:200px;
+	height:40px;
+	border-radius:5px;
+	font:20px "微软雅黑", "隶书";
+	background-color:#900;
+	color:#FFF;}
+.noReg{
+	position:absolute;
+	right:5%;
+	bottom:10%;
+	font-size:18px;}
+.noReg a:hover{
+	color:#900;
+	text-decoration:underline;}
+.regTab{
+	border:none;
+	width:400px;
+	margin:0px auto;
+	font-size:18px;}
+.regTab td{
+	height:20px;
+	padding-top:10px;}
